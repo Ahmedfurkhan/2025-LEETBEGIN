@@ -1,18 +1,21 @@
 class Solution:
     def tupleSameProduct(self, nums: List[int]) -> int:
-        product_count = defaultdict(int)
-        n = len(nums)
-    
-        # Step 1: Generate all possible products
-        for i in range(n):
-            for j in range(i + 1, n):
-                product = nums[i] * nums[j]
-                product_count[product] += 1
-        
-        # Step 2: Count valid tuples
-        result = 0
-        for count in product_count.values():
-            if count >= 2:
-                result += count * (count - 1) // 2 * 8
-        
-        return result
+
+        product_map = dict()
+
+        res = 0
+
+        for idx, num in enumerate(nums[:-1]):
+            for numb in nums[idx + 1:]:
+                product = num * numb
+
+                if product in product_map:
+                    product_map[product] += 1
+                else:
+                    product_map[product] = 1
+
+        for k, v in product_map.items():
+            if v > 1:
+                res += (v*(v-1)//2) * (2**3)
+
+        return res
