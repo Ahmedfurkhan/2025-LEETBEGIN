@@ -1,24 +1,30 @@
 class Solution:
     def queryResults(self, limit: int, queries: List[List[int]]) -> List[int]:
-        ball_colors = {}  # Maps ball to its current color
-        color_count = {}  # Maps color to the number of balls with that color
-        distinct_colors = set()  # Tracks distinct colors
-        result = []
-
-        for x, y in queries:
-            # If the ball already has a color, update its previous color's count
-            if x in ball_colors:
-                prev_color = ball_colors[x]
-                color_count[prev_color] -= 1
-                if color_count[prev_color] == 0:
-                    distinct_colors.discard(prev_color)
-            
-            # Assign the new color to the ball
-            ball_colors[x] = y
-            color_count[y] = color_count.get(y, 0) + 1
-            distinct_colors.add(y)
-            
-            # Record the number of distinct colors
-            result.append(len(distinct_colors))
+        res = [] # res[i] = distinct # of colors after queries[i]
+        distinct = 0 # current distinct # of colors
         
-        return result
+        ball_color = {} # ball : color of the ball
+        color_count = {} # color : count of the color; # of items corresponds to 'distinct'
+
+        for ball, new_color in queries:
+            # Considering the removal of the ball's old color, update 'color_count'
+            if ball in ball_color:
+                old_color = ball_color[ball]
+                color_count[old_color] -= 1
+                if color_count[old_color] == 0:
+                    # A unique color is deleted
+                    del color_count[old_color]
+                    distinct -= 1
+
+            # Update the ball's color and update 'color_count' as appropriate
+            ball_color[ball] = new_color
+            if new_color in color_count:
+                color_count[new_color] += 1
+            else:
+                # A unique color is added
+                color_count[new_color] = 1
+                distinct += 1
+            
+            # Append the distinct # of colors after executing updates
+            res.append(distinct)
+        return res
