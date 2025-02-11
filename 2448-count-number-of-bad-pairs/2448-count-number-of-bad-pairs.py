@@ -1,13 +1,9 @@
-from typing import List
-from collections import defaultdict
 class Solution:
     def countBadPairs(self, nums: List[int]) -> int:
-        n = len(nums)
-        total_pairs = (n*(n-1)) // 2
-        good_pairs = 0
-        freq = defaultdict(int)
-        for i in range(n):
-            key = nums[i] - i
-            good_pairs += freq[key]
-            freq[key] += 1
-        return total_pairs - good_pairs
+        c=Counter(i-n for i,n in enumerate(nums))
+        res=len(nums)*(len(nums)-1)
+        
+        for v in c.values():
+            if v>1:
+                res-=v*(v-1)
+        return res//2
