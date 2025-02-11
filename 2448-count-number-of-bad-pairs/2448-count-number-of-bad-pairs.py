@@ -1,12 +1,9 @@
-from typing import List
-from collections import Counter
-
 class Solution:
     def countBadPairs(self, nums: List[int]) -> int:
-        n = len(nums)
-        total_pairs = n * (n - 1) // 2  # Compute total possible pairs
-        c = Counter(i - num for i, num in enumerate(nums))  # Count occurrences of nums[i] - i
+        c=Counter(i-n for i,n in enumerate(nums))
+        res=len(nums)*(len(nums)-1)
         
-        good_pairs = sum(v * (v - 1) // 2 for v in c.values())  # Sum of good pairs formula
-
-        return total_pairs - good_pairs  # Bad pairs = total - good
+        for v in c.values():
+            if v>1:
+                res-=v*(v-1)
+        return res//2
