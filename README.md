@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1364-tuple-with-same-product](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1364-tuple-with-same-product) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [2448-count-number-of-bad-pairs](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2448-count-number-of-bad-pairs) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 ## Hash Table
 |  |
 | ------- |
@@ -20,11 +21,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [2434-design-a-number-container-system](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2448-count-number-of-bad-pairs) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 ## Sorting
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/0242-valid-anagram) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 ## String
 |  |
 | ------- |
@@ -52,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2434-design-a-number-container-system) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 ## Ordered Set
 |  |
 | ------- |
