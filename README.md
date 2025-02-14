@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1477-product-of-the-last-k-numbers) |
 ## Hash Table
 |  |
 | ------- |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2434-design-a-number-container-system) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1477-product-of-the-last-k-numbers) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -72,4 +74,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2448-count-number-of-bad-pairs](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2448-count-number-of-bad-pairs) |
+| [1477-product-of-the-last-k-numbers](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1477-product-of-the-last-k-numbers) |
+## Data Stream
+|  |
+| ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1477-product-of-the-last-k-numbers) |
+## Prefix Sum
+|  |
+| ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1477-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
