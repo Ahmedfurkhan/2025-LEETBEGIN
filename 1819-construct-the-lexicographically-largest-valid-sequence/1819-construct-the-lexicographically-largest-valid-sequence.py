@@ -1,27 +1,35 @@
 class Solution:
     def constructDistancedSequence(self, n: int) -> List[int]:
-        res = [0] * (2 * n - 1)
-        seen = set()
-        def backtrack(i):
-            if i == len(res):
-                return True
-            if res[i]:
-                return backtrack(i+1)
-            for j in range(n,0,-1):
-                if j in seen:
-                    continue
-                seen.add(j)
-                res[i] = j
-                if j == 1:
-                    if backtrack(i+1):
-                        return True
-                elif j + i < len(res) and res[i+j] == 0:
-                    res[i+j] = j
-                    if backtrack(i+1):
-                        return True
-                    res[i+j] = 0
-                res[i] = 0
-                seen.remove(j)
-            return False
-        backtrack(0)
-        return res
+        result = [0] * (2 * n - 1)
+        used = [False] * (n + 1)
+        self.backtrack(result, used, n, 0)
+        return result
+
+    def backtrack(self, result: List[int], used: List[bool], n: int, index: int) -> bool:
+        while index < len(result) and result[index] != 0:
+            index += 1
+        if index == len(result):
+            return True
+
+        for i in range(n, 0, -1):
+            if used[i]:
+                continue
+
+            if i == 1:
+                result[index] = 1
+                used[1] = True
+                if self.backtrack(result, used, n, index + 1):
+                    return True
+                result[index] = 0
+                used[1] = False
+            elif index + i < len(result) and result[index + i] == 0:
+                result[index] = i
+                result[index + i] = i
+                used[i] = True
+                if self.backtrack(result, used, n, index + 1):
+                    return True
+                result[index] = 0
+                result[index + i] = 0
+                used[i] = False
+
+        return False
