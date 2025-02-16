@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1477-product-of-the-last-k-numbers) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 ## Hash Table
 |  |
 | ------- |
@@ -88,4 +89,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2802-find-the-punishment-number-of-an-integer) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 <!---LeetCode Topics End-->
