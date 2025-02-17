@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2434-design-a-number-container-system](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
+| [1160-letter-tile-possibilities](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1160-letter-tile-possibilities) |
 ## Sorting
 |  |
 | ------- |
@@ -38,12 +39,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [3447-clear-digits](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/3447-clear-digits) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2021-remove-all-occurrences-of-a-substring) |
+| [1160-letter-tile-possibilities](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1160-letter-tile-possibilities) |
 ## Counting
 |  |
 | ------- |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1364-tuple-with-same-product](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1364-tuple-with-same-product) |
 | [2448-count-number-of-bad-pairs](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2448-count-number-of-bad-pairs) |
+| [1160-letter-tile-possibilities](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1160-letter-tile-possibilities) |
 ## Simulation
 |  |
 | ------- |
@@ -90,4 +93,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [1160-letter-tile-possibilities](https://github.com/Ahmedfurkhan/2025-LEETBEGIN/tree/master/1160-letter-tile-possibilities) |
 <!---LeetCode Topics End-->
